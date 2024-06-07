@@ -4,10 +4,10 @@ AitoCSV
 
 CSVAito
 
-AitoCSV (pull CSV) from application
+AitoCSV (pull CSV) from application <
 
 
-CSVAito (push CSV) to application
+CSVAito (push CSV) to application   >
 
 CSVtoAi 
 
