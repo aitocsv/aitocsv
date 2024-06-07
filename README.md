@@ -16,7 +16,7 @@ AitoCSV
 
 Application Interface to CSV  (AitoCSV)
 
-CSV to Application Interface  (CSVtoai)
+CSV to Application Interface  (CSVtoAi)
 
 
 
