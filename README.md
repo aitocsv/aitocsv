@@ -31,6 +31,18 @@ http://www.aitocsv.com
 
 http://www.csvtoai.com
 
+Build security
+
+go build -ldflags="-s -w"
+
+-s flag removes the symbol table and debugging information
+-w flag removes the DWARF debugging information
+
+go build -gcflags="all=-l -B"
+
+disable inlining and enable more aggresive optimizations
+
+garble build
 
 <!--
 **aitocsv/aitocsv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
