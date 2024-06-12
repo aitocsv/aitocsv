@@ -25,6 +25,13 @@ http://aitocsv.com
 
 http://csvtoai.com
 
+
+http://www.aitocsv.com
+
+
+http://www.csvtoai.com
+
+
 <!--
 **aitocsv/aitocsv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
