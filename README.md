@@ -19,15 +19,13 @@ Application Interface to CSV  (AitoCSV)
 CSV to Application Interface  (CSVtoAi)
 
 
+Web sit links for executables:
 
 http://aitocsv.com
 
-
 http://csvtoai.com
 
-
 http://www.aitocsv.com
-
 
 http://www.csvtoai.com
 
