@@ -28,3 +28,8 @@ logger=context userId=0 orgId=0 uname= t=2024-06-15T01:26:50.586059878Z level=in
 logger=context userId=0 orgId=0 uname= t=2024-06-15T01:28:23.233182357Z level=info msg="Request Completed" method=GET path=/api/annotations/ status=401 remote_addr=192.168.1.64 time_ms=3 duration=3.872363ms size=27 referer= handler=/api/annotations
 logger=context userId=0 orgId=0 uname= t=2024-06-15T01:29:41.731055481Z level=info msg="Request Completed" method=GET path=/api/annotations/ status=401 remote_addr=192.168.1.66 time_ms=1 duration=1.480496ms size=27 referer= handler=/api/annotations
 logger=context userId=0 orgId=0 uname= t=2024-06-15T01:29:52.227549817Z level=info msg="Request Completed" method=GET path=/api/annotations/ status=401 remote_addr=192.168.1.66 time_ms=1 duration=1.239955ms size=27 referer= handler=/api/annotations
+
+
+# Fixed by adding API token
+
+curl http://XXX.XXX.XXX.XXX:3000/api/annotations/ -H "Authorization: Bearer glsa_xxxxxukQSGahveGVLQtMyH8Mj4_b9b30d30"  
