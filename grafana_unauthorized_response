@@ -29,6 +29,14 @@ logger=context userId=0 orgId=0 uname= t=2024-06-15T01:28:23.233182357Z level=in
 logger=context userId=0 orgId=0 uname= t=2024-06-15T01:29:41.731055481Z level=info msg="Request Completed" method=GET path=/api/annotations/ status=401 remote_addr=192.168.1.66 time_ms=1 duration=1.480496ms size=27 referer= handler=/api/annotations
 logger=context userId=0 orgId=0 uname= t=2024-06-15T01:29:52.227549817Z level=info msg="Request Completed" method=GET path=/api/annotations/ status=401 remote_addr=192.168.1.66 time_ms=1 duration=1.239955ms size=27 referer= handler=/api/annotations
 
+# Different responses for no API key vs invalid key
+
+% curl http://192.168.1.66:3000/api/annotations/ -H "Authorization: Bearer glsa_Lh7wjqwftx6ukQSGahveGVLQtMyH8Mj4_b9b30d0"  
+{"message":"invalid API key","traceID":""}
+% curl http://192.168.1.66:3000/api/annotations/                                                                          
+{"message":"Unauthorized"}
+tonycasanova@Tonys-MBP ~ % 
+
 
 # Fixed by adding API token
 
