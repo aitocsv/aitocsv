@@ -1,25 +1,25 @@
 ## Hi there 👋
 
-AitoCSV
+AitoCSV™
 
-CSVAito
+CSVAito™
 
-AitoCSV (pull CSV) from application <
-
-
-CSVAito (push CSV) to application   >
-
-CSVtoAi 
+AitoCSV™ (pull CSV) from application <
 
 
-AitoCSV
+CSVAito™ (push CSV) to application   >
 
-Application Interface to CSV  (AitoCSV)
-
-CSV to Application Interface  (CSVtoAi)
+CSVtoAi™
 
 
-Web sit links for executables:
+AitoCSV™
+
+Application Interface to CSV  (AitoCSV™)
+
+CSV to Application Interface  (CSVtoAi™)
+
+
+Web site links for executables:
 
 http://aitocsv.com
 
